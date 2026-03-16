@@ -1,14 +1,18 @@
-const songList = [
-  { id: 1, name: "SA1: Open Your Heart", file: "SA1/01.mp3", rating: 1500, comparisons: 0 },
-  { id: 2, name: "SA2: Live & Learn", file: "SA2/01.mp3", rating: 1500, comparisons: 0 },
-  { id: 3, name: "SA2: City Escape", file: "SA2/02.mp3", rating: 1500, comparisons: 0 },
-  { id: 4, name: "Heroes: Sonic Heroes", file: "SH/01.mp3", rating: 1500, comparisons: 0 },
-  { id: 5, name: "UT: Home (Music Box)", file: "UT/home.mp3", rating: 1500, comparisons: 0 },
-  { id: 6, name: "UT: Megalovania", file: "UT/mega.mp3", rating: 1500, comparisons: 0 },
-  { id: 7, name: "UTY: Remedy", file: "UTY/remedy.mp3", rating: 1500, comparisons: 0 },
-  { id: 8, name: "UTY: Retribution", file: "UTY/retribution.mp3", rating: 1500, comparisons: 0 },
-  { id: 9, name: "TS!US: Bonequarrel", file: "TSUS/bone.mp3", rating: 1500, comparisons: 0 },
-  { id: 10, name: "DR: BIG SHOT", file: "DR/bigshot.mp3", rating: 1500, comparisons: 0 }
-];
 
-export default songList;
+const sa1_ost = ["Open Your Heart", "It Doesn't Matter (SA1)", "Believe In Myself (SA1)", "Unknown from M.E. (SA1)", "My Sweet Passion", "Lazy Days", "Emerald Coast", "Windy Valley", "Icecap", "Sky Deck", "Speed Highway", "Red Mountain", "Casinopolis", "Twinkle Park", "Lost World", "Final Egg", "Chaos Boss Themes", "Tikal's Theme"];
+
+const sa2_ost = ["Live & Learn", "It Doesn't Matter (SA2)", "Believe In Myself (SA2)", "Unknown from M.E. (SA2)", "Throw It All Away", "E.G.G.M.A.N.", "Fly In The Freedom", "City Escape", "Wild Canyon", "Pumpkin Hill", "Metal Harbor", "Radical Highway", "Weapons Bed", "Green Forest", "White Jungle", "Sky Rail", "Mad Space", "Cosmic Wall", "Meteor Herd", "Supporting Me", "Live Life"];
+
+const heroes_ost = ["Sonic Heroes", "We Can", "This Machine", "Follow Me", "Team Chaotix", "Seaside Hill", "Ocean Palace", "Grand Metropolis", "Power Plant", "Casino Park", "BINGO Highway", "Rail Canyon", "Bullet Station", "Frog Forest", "Lost Jungle", "Hang Castle", "Mystic Mansion", "Egg Fleet", "Final Fortress", "What I'm Made Of..."];
+
+// Combine them into one "Mega Roster"
+const fullRoster = sa1_ost.concat(sa2_ost, heroes_ost);
+
+// This part pushes them into the site's data (assuming 'items' is the array name)
+fullRoster.forEach(song => {
+    console.log("Adding to Roster: " + song);
+    // If you are using a specific site like TierMaker or a Custom Ranker:
+    // items.push(song); 
+});
+
+alert("Roster Buffed! " + fullRoster.length + " songs added.");
