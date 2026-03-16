@@ -41,36 +41,4 @@
   { id: 37, name: "SA2: Sky Rail (Shadow)", file: "SA2/15.mp3", rating: 1500, comparisons: 0 },
   { id: 38, name: "SA2: Final Chase (Shadow)", file: "SA2/16.mp3", rating: 1500, comparisons: 0 },
   { id: 39, name: "SA2: Metal Harbor (Sonic)", file: "SA2/17.mp3", rating: 1500, comparisons: 0 },
-  { id: 40, name: "SA2: Green Forest (Sonic)", file: "SA2/18.mp3", rating: 1500, comparisons: 0 },
-  { id: 41, name: "SA2: Pyramid Cave (Sonic)", file: "SA2/19.mp3", rating: 1500, comparisons: 0 },
-  { id: 42, name: "SA2: Crazy Gadget (Sonic)", file: "SA2/20.mp3", rating: 1500, comparisons: 0 },
-  { id: 43, name: "SA2: Final Rush (Sonic)", file: "SA2/21.mp3", rating: 1500, comparisons: 0 },
-  { id: 44, name: "SA2: Supporting Me (Biolizard)", file: "SA2/22.mp3", rating: 1500, comparisons: 0 },
-  { id: 45, name: "SA2: For True Story (Sonic vs Shadow)", file: "SA2/23.mp3", rating: 1500, comparisons: 0 },
-  { id: 46, name: "SA2: The Biolizard", file: "SA2/24.mp3", rating: 1500, comparisons: 0 },
-
-  /* SONIC HEROES */
-  { id: 47, name: "Heroes: Sonic Heroes (Main Theme)", file: "SH/01.mp3", rating: 1500, comparisons: 0 },
-  { id: 48, name: "Heroes: We Can (Team Sonic)", file: "SH/02.mp3", rating: 1500, comparisons: 0 },
-  { id: 49, name: "Heroes: This Machine (Team Dark)", file: "SH/03.mp3", rating: 1500, comparisons: 0 },
-  { id: 50, name: "Heroes: Follow Me (Team Rose)", file: "SH/04.mp3", rating: 1500, comparisons: 0 },
-  { id: 51, name: "Heroes: Team Chaotix", file: "SH/05.mp3", rating: 1500, comparisons: 0 },
-  { id: 52, name: "Heroes: What I'm Made Of (Final Boss)", file: "SH/06.mp3", rating: 1500, comparisons: 0 },
-  { id: 53, name: "Heroes: Seaside Hill", file: "SH/07.mp3", rating: 1500, comparisons: 0 },
-  { id: 54, name: "Heroes: Ocean Palace", file: "SH/08.mp3", rating: 1500, comparisons: 0 },
-  { id: 55, name: "Heroes: Grand Metropolis", file: "SH/09.mp3", rating: 1500, comparisons: 0 },
-  { id: 56, name: "Heroes: Power Plant", file: "SH/10.mp3", rating: 1500, comparisons: 0 },
-  { id: 57, name: "Heroes: Casino Park", file: "SH/11.mp3", rating: 1500, comparisons: 0 },
-  { id: 58, name: "Heroes: BINGO Highway", file: "SH/12.mp3", rating: 1500, comparisons: 0 },
-  { id: 59, name: "Heroes: Rail Canyon", file: "SH/13.mp3", rating: 1500, comparisons: 0 },
-  { id: 60, name: "Heroes: Bullet Station", file: "SH/14.mp3", rating: 1500, comparisons: 0 },
-  { id: 61, name: "Heroes: Frog Forest", file: "SH/15.mp3", rating: 1500, comparisons: 0 },
-  { id: 62, name: "Heroes: Lost Jungle", file: "SH/16.mp3", rating: 1500, comparisons: 0 },
-  { id: 63, name: "Heroes: Hang Castle", file: "SH/17.mp3", rating: 1500, comparisons: 0 },
-  { id: 64, name: "Heroes: Mystic Mansion", file: "SH/18.mp3", rating: 1500, comparisons: 0 },
-  { id: 65, name: "Heroes: Egg Fleet", file: "SH/19.mp3", rating: 1500, comparisons: 0 },
-  { id: 66, name: "Heroes: Final Fortress", file: "SH/20.mp3", rating: 1500, comparisons: 0 }
-];
-
-export default songList;
- 
+  { id: 40, name: "SA2: Green Forest (Sonic)", file: "SA2/18.mp3", rating: 1500, comparisons: 0
